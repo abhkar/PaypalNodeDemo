@@ -63,7 +63,7 @@ app.post('/pay', (req, res) => {
       "payer_id": payerId,
       "transactions": [{
           "amount": {
-              "currency": "USD",
+              "currency": "INR",
               "total": "25.00"
           }
       }]
